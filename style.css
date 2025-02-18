@@ -2,6 +2,8 @@
 *{    /*UNIVERSAL*/
     margin: 0%; /*MARGEM*/
     padding: 0%; /*ESPAÇAMENTO INTERNO*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; /*TAMANHO DO ESPAÇAMENTO*/
 }
 
 img{    /*ESTILO TAG IMAGEM
@@ -28,4 +30,11 @@ a{      /*TAG LINK/ANCORA*/
 
 footer{
     background-color: #f2f2f2;  /*cor de fundo*/
+
+}
+.caixa-rodapé{
+    padding: 15px 30px;
+}
+.caixa-rodapé--borda{
+    border-bottom: 1px solid #dadce0;
 }
