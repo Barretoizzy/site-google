@@ -16,18 +16,42 @@ a{      /*TAG LINK/ANCORA*/
     font-size: 13px; /*Tamanho Fonte*/
     font-family: sans-serif;/*tipo/familia*/
 }
-.botao-login{
-    background-color: #1a73e8;/*cor plano de fundo*/
-    color: white;
-   padding: 13px 12px; /*espaçamento interno*/
-   border-radius: 100px;/*raio da borda*/
+
+/*MAIN PRINCIPAL*/
+.caixa-pesquisa{
+    display: flex; 
+    width: 583px;  /*LARGURA*/
+    padding: 10px 14px; /*ESPAÇAMENTO INTERNO*/
+    align-items: center; /*ALINHANDO OS ITENS AO CENTRO VERTICAL*/
+    gap: 13px;   /*ESPAÇAMENTO ENTRE OS ELEMENTOS FILHO*/
+    border: 1px solid #dfe1e5; /*BORDA*/
+    border-radius: 100px;     /*RAIO DA BORDA*/
+}
+.caixa-icones{
+    display: flex; 
+    align-items: center; /*ALINHADO NA VERTICAL*/
+    gap: 16px;  /*ESPAÇAMENTO ENTRE OS ITENS*/
+}
+.input-pesquisa{
+    width: 100px;  /*OCUPAR 100% DA LARGURA DISPONIVEL*/
+    border: none;  /*BORDA NENHUMA*/
+    outline: none; /* SOMBREAMENTO QUANDO SELECIONADO NENHUM*/
+}
+.icone-lupa{
+    width: 20px;   /*LARGURA*/
+    fill: #9aa0a6;            /*PREENCHIMENTO*/
+}
+.icone-teclado{
+    width: 16px;    /*LARGURA*/
+    height: 12px; /*altura*/
+}
+.icone-colorido{
+    width: 24px; /*LARGURA*/
+
 }
 
-.icone-produtos{
-   width:24px ; /*largura*/
-   fill: #444746; 
-}
 
+/*RODAPÉ*/
 footer{
     background-color: #f2f2f2;  /*cor de fundo*/
 
@@ -41,6 +65,13 @@ footer{
 .caixa-rodapé--borda{
     border-bottom: 1px solid #dadce0;
 }
+.caixa-links{
+     display: flex;
+     gap: 30px;  /*espaçamento entre os itens da div caixa-links*/
+}
+
+/*cabeçalho*/
+
 header{   /*cabeçalho*/
     display: flex;
     justify-content: flex-end;
@@ -49,7 +80,14 @@ header{   /*cabeçalho*/
     padding: 10px 14px;
     
 }
-.caixa-links{
-     display: flex;
-     gap: 30px;  /*espaçamento entre os itens da div caixa-links*/
+.botao-login{
+    background-color: #1a73e8;/*cor plano de fundo*/
+    color: white;
+   padding: 13px 12px; /*espaçamento interno*/
+   border-radius: 100px;/*raio da borda*/
+}
+
+.icone-produtos{
+   width:24px ; /*largura*/
+   fill: #444746; 
 }
